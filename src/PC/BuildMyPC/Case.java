@@ -25,6 +25,19 @@ public class Case {
         System.out.println("Case Class: Press the power button - Pressed ");
     }
 
+    public String getModel() {
+        return model;
+    }
 
+    public String getBrand() {
+        return brand;
+    }
 
+    public String getMaterial() {
+        return material;
+    }
+
+    public Dimension getDimension() {
+        return dimension;
+    }
 }

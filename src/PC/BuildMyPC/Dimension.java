@@ -12,5 +12,20 @@ public class Dimension {
         this.width = width;
     }
 
+    public Dimension(double height, double width) {
+        this.height = height;
+        this.width = width;
+    }
 
+    public double getHeight() {
+        return height;
+    }
+
+    public double getWidth() {
+        return width;
+    }
+
+    public double getDepth() {
+        return depth;
+    }
 }
