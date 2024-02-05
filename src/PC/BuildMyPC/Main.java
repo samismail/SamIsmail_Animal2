@@ -6,6 +6,6 @@ public class Main {
         Dimension myDimension = new Dimension()
         Case myCase = new Case("4000D AIRFLOW ATX", "Corsair", "Steel, Glass, Plastic", myDimension);
         PC homePC = new PC();
-
+//
     }
 }
