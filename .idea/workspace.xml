@@ -4,19 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f86156cd-bbf1-4347-bbd5-933014512dcc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ITEC2150_INPERSON2024.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PC/BuildMyPC/Case.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PC/BuildMyPC/Dimension.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PC/BuildMyPC/Monitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PC/BuildMyPC/Motherboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PC/BuildMyPC/PC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PC/BuildMyPC/Resolution.java" afterDir="false" />
+    <list default="true" id="f86156cd-bbf1-4347-bbd5-933014512dcc" name="Changes" comment="all committed">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InheritanceDemoV1/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InheritanceDemoV1/Mammal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InheritanceDemoV1/Reptile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritanceDemoV2/Mammal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritanceDemoV2/Reptile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritanceDemoV3/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritanceDemoV3/Mammal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritanceDemoV3/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritanceDemoV3/Reptile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +33,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -42,26 +45,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hpark/IdeaProjects/ITEC2150_INPERSON2024/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/hpark/IdeaProjects/ITEC2150_INPERSON2024/src/inheritanceDemoV3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hpark\IdeaProjects\ITEC2150_INPERSON2024\src\inheritanceDemoV3" />
+      <recent name="C:\Users\hpark\IdeaProjects\ITEC2150_INPERSON2024\src\inheritanceDemoV2" />
       <recent name="C:\Users\hpark\IdeaProjects\ITEC2150_INPERSON2024\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="animal" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -85,11 +94,31 @@
       <workItem from="1706750178960" duration="12000" />
       <workItem from="1706888940072" duration="3818000" />
       <workItem from="1706913974810" duration="18000" />
-      <workItem from="1707148741924" duration="2074000" />
+      <workItem from="1707148741924" duration="2861000" />
+      <workItem from="1707151782973" duration="624000" />
+      <workItem from="1707158629641" duration="3000" />
+      <workItem from="1707176485683" duration="90000" />
+      <workItem from="1707231821697" duration="668000" />
+      <workItem from="1707242800533" duration="597000" />
+      <workItem from="1707321601949" duration="2402000" />
+      <workItem from="1707329311279" duration="2543000" />
     </task>
+    <task id="LOCAL-00001" summary="all committed">
+      <option name="closed" value="true" />
+      <created>1707151110933</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707151110933</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="all committed" />
+    <option name="LAST_COMMIT_MESSAGE" value="all committed" />
   </component>
 </project>
