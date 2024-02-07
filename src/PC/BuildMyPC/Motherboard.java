@@ -11,5 +11,35 @@ package PC.BuildMyPC;
  * Maximum Memory Supported: 128 gigabytes
  */
 public class Motherboard {
+    private String model;
+    private int PCI;
+    private int memSlots;
+    private int maxMem;
 
+
+    public Motherboard(String model, int PCI, int memSlots, int maxMem) {
+        this.model = model;
+        this.PCI = PCI;
+        this.memSlots = memSlots;
+        this.maxMem = maxMem;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public int getPCI() {
+        return PCI;
+    }
+
+    public int getMemSlots() {
+        return memSlots;
+    }
+
+    public int getMaxMem() {
+        return maxMem;
+    }
+    
 }
+
+

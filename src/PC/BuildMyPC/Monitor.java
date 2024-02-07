@@ -30,5 +30,23 @@ public class Monitor {
         this.refreshRate = refreshRate;
     }
 
+    public String getManufacturer() {
+        return manufacturer;
+    }
 
+    public String getModel() {
+        return model;
+    }
+
+    public Resolution getResolution() {
+        return resolution;
+    }
+
+    public double getScreenSize() {
+        return screenSize;
+    }
+
+    public int getRefreshRate() {
+        return refreshRate;
+    }
 }
