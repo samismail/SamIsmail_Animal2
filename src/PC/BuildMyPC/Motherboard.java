@@ -10,7 +10,7 @@ package PC.BuildMyPC;
  * Number Of Memory Slots: 4
  * Maximum Memory Supported: 128 gigabytes
  */
-public class Motherboard {
+public class Motherboard {//
     private String model;
     private int PCI;
     private int memSlots;
