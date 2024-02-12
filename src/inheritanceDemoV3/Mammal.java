@@ -10,29 +10,29 @@ public class Mammal extends Animal {
     }
 
     public Mammal(boolean hasFur, boolean giveBirth){
-        super(false, 2, "Carnivore");
+       // super(false, 2, "Carnivore");
         this.hasFur = hasFur;
         this.giveBirth = giveBirth;
         //this();
     }
 
     public Mammal(boolean beingDangerous, int numberOfLegs, String diet, boolean hasFur, boolean giveBirth){
-        super(beingDangerous, numberOfLegs, diet);
+        //super(beingDangerous, numberOfLegs, diet);
         this.hasFur = hasFur;
         this.giveBirth = giveBirth;
     }
 
     public Mammal(Animal animal){
-        super(animal.beingDangerous,animal.numberOfLegs, animal.diet);
+        // super(animal.beingDangerous,animal.numberOfLegs, animal.diet);
     }
 
-    public Mammal(Animal animal, boolean hasFur, boolean giveBirth){
-        super(animal.beingDangerous,animal.numberOfLegs, animal.diet);
-        this.hasFur = hasFur;
+   public Mammal(Animal animal, boolean hasFur, boolean giveBirth){
+    //  super(animal.beingDangerous,animal.numberOfLegs, animal.diet);
+     this.hasFur = hasFur;
         this.giveBirth = giveBirth;
     }
 
-    public Mammal(String name, boolean hasFur, boolean giveBirth){
+   public Mammal(String name, boolean hasFur, boolean giveBirth){
        // super();
         this.hasFur = hasFur;
         this.giveBirth = giveBirth;

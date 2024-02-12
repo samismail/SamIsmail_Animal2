@@ -6,7 +6,7 @@ public class Reptile extends Animal {
     private boolean hasScales;
     private boolean laysEggs;
 
-    public Reptile(){
+   /* public Reptile(){
         super(true, 4, "Carnivore");
     }
 
@@ -30,7 +30,7 @@ public class Reptile extends Animal {
        // super(animal.isBeingDangerous(), animal.getNumberOfLegs(), animal.getDiet());
          super(animal.beingDangerous,animal.numberOfLegs, animal.diet);
     }
-
+*/
 
     @Override
     public void makeNoise(){
